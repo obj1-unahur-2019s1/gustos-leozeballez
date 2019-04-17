@@ -1,8 +1,8 @@
 import objetos.*
 
 object bolichito {
-	var objetoEnMostrador
-	var objetoEnVidriera
+	var objetoEnMostrador = 
+	var objetoEnVidriera = 
 	
 	method ponerEnMostrador(objeto) { objetoEnMostrador = objeto }
 	method ponerEnVidriera(objeto) { objetoEnVidriera = objeto }

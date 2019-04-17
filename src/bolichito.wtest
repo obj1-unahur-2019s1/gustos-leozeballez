@@ -1,0 +1,11 @@
+import bolichito.*
+import personas.*
+import objetos.*
+
+test "puedeMejorarVerdadero" {
+	bolichito.ponerEnMostrador(biblioteca)
+	bolichito.ponerEnVidriera(remera)
+	
+	assert.equals(true, bolichito.puedeMejorar() )
+
+}
